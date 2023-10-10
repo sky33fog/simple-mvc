@@ -7,7 +7,7 @@ public interface ProjectRepository<T> {
 
     void store(T book);
 
-    boolean removeItemById(Integer bookIdRemove);
+    boolean removeItemById(String bookIdRemove);
 
     boolean removeByRegex(String regex);
 }
